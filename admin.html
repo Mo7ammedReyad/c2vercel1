@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Admin Panel</title>
+</head>
+<body>
+    <h1>🔥 C2 Admin Panel</h1>
+    <form method="POST" action="/send-command">
+        <input type="text" name="command" placeholder="Enter command" required>
+        <button type="submit">Send</button>
+    </form>
+    <h2>Output:</h2>
+    <pre>{{ result }}</pre>
+</body>
+</html>
+
